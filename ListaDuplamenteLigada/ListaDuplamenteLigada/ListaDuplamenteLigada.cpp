@@ -54,7 +54,7 @@ void menu()
 			break;
 		case 2:inserirElemento();
 			break;
-		case 3: exibirQuantidadeElementos(); 
+		case 3: exibirQuantidadeElementos();
 			break;
 		case 4: exibirElementos();
 			break;
@@ -167,10 +167,10 @@ void exibirReverso()
 
 void excluirPrimeiroElemento()
 {
-	if(primeiro==NULL)
+	if (primeiro == NULL)
 	{
 		cout << "Lista vazia \n";
-	} 
+	}
 	else {
 		NO* aux = primeiro;
 		primeiro = aux->prox;
@@ -196,9 +196,3 @@ void excluirUltimoElemento()
 		cout << "O elemento foi excluido \n";
 	}
 }
-
-
-
-
-
-
